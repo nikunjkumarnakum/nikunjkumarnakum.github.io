@@ -1,2 +1,2 @@
 # socializewithme
-This is a simple scoial webpage for me.
+This is a simple scoial webpage for fun.
