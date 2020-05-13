@@ -30,11 +30,12 @@ a {
 }
 
 h4 {
-  color: rgb(255, 255, 255);
+  color: rgb(247, 147, 147);
   vertical-align: middle;
 }
 
 img {
+  max-width: 100%;
   display: inline-block;
   vertical-align: middle;
 }
