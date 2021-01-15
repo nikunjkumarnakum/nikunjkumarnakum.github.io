@@ -40,6 +40,10 @@ img {
   vertical-align: middle;
 }
 
+#new-svg {
+    max-width: 64px;
+}
+
 footer {
   font-size: small;
   margin-top: 3em;
