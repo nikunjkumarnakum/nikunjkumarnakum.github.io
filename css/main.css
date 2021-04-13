@@ -1,19 +1,19 @@
 @font-face {
     font-family: "comfortaa-regular";
-    src: url("./fonts/comfortaa-variable-font-wght.eot"); /* IE9 Compat Modes */
-    src: url("./fonts/comfortaa-variable-font-wght.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-      url("./fonts/comfortaa-variable-font-wght.otf") format("opentype"), /* Open Type Font */
-      url("./fonts/comfortaa-variable-font-wght.svg") format("svg"), /* Legacy iOS */
-      url("./fonts/comfortaa-variable-font-wght.ttf") format("truetype"), /* Safari, Android, iOS */
-      url("./fonts/comfortaa-variable-font-wght.woff") format("woff"), /* Modern Browsers */
-      url("./fonts/comfortaa-variable-font-wght.woff2") format("woff2"); /* Modern Browsers */
+    src: url("../fonts/comfortaa/comfortaa-variable-font-wght.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/comfortaa/comfortaa-variable-font-wght.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/comfortaa/comfortaa-variable-font-wght.otf") format("opentype"), /* Open Type Font */
+      url("../fonts/comfortaa/comfortaa-variable-font-wght.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/comfortaa/comfortaa-variable-font-wght.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../fonts/comfortaa/comfortaa-variable-font-wght.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/comfortaa/comfortaa-variable-font-wght.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
   }
 
 /* title */
 header h1 {
-    font-family: 'comfortaa-regular', cursive;
+    font-family: 'comfortaa-regular';
     color: rgb(255, 255, 255);
 }
 
@@ -38,10 +38,6 @@ img {
   max-width: 100%;
   display: inline-block;
   vertical-align: middle;
-}
-
-#new-svg {
-    max-width: 64px;
 }
 
 footer {
