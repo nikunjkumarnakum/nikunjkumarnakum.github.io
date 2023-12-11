@@ -11,19 +11,32 @@
     font-style: normal;
   }
 
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../fonts/roboto/roboto-variable-font-wght.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/roboto/roboto-variable-font-wght.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/roboto/roboto-variable-font-wght.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/roboto/roboto-variable-font-wght.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/roboto/roboto-variable-font-wght.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/roboto/roboto-variable-font-wght.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/roboto/roboto-variable-font-wght.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* title */
 header h1 {
-    font-family: 'comfortaa-regular';
+    font-family: 'roboto-regular';
     color: rgb(255, 255, 255);
 }
 
 body {
   background-color: rgb(51, 51, 51);
-  font-family: 'comfortaa-regular';
+  font-family: 'roboto-regular';
   text-align: center;
   color: rgb(255, 255, 255);
 }
-
+/* link */
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -33,7 +46,7 @@ h4 {
   color: rgb(247, 147, 147);
   vertical-align: middle;
 }
-
+/* icons */
 img {
   max-width: 100%;
   display: inline-block;
@@ -41,10 +54,10 @@ img {
 }
 
 footer {
-  font-size: small;
+  font-size: 100%;
   margin-top: 3em;
 }
-/* 1 facebook #3f5d9a */
+/* 1 facebook #3f5d9a #0866ff */
 /* 2 github #24292e */
 /* 3 signal #3a76f0 */
 /* 4 steam #171a21 */
@@ -53,3 +66,4 @@ footer {
 /* 7 flickr #4400df left , #ff0076 right */
 /* 8 linkedin #0073b0 */
 /* 9 skype #0078ca */
+/* 10 mastodon #563acc */
