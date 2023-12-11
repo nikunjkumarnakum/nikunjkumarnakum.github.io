@@ -15,7 +15,7 @@
   font-family: "roboto-regular";
   src: url("../fonts/roboto/roboto-variable-font-wght.eot"); /* IE9 Compat Modes */
   src: url("../fonts/roboto/roboto-variable-font-wght.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/roboto/roboto-variable-font-wght.otf") format("opentype"), /* Open Type Font */
+    /* url("../fonts/roboto/roboto-variable-font-wght.otf") format("opentype"),*/ /* Open Type Font */
     url("../fonts/roboto/roboto-variable-font-wght.svg") format("svg"), /* Legacy iOS */
     url("../fonts/roboto/roboto-variable-font-wght.ttf") format("truetype"), /* Safari, Android, iOS */
     url("../fonts/roboto/roboto-variable-font-wght.woff") format("woff"), /* Modern Browsers */
