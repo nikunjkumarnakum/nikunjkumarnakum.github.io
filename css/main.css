@@ -39,8 +39,8 @@ img {
   vertical-align: middle;
 }
 img[src$=".svg"] {
-  width: 64px;
-  height: 64px;
+  width: 64px !important;
+  height: 64px !important;
 }
 footer {
   font-size: 100%;
