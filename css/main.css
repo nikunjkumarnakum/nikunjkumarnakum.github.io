@@ -1,0 +1,50 @@
+/* Font face definition */
+@font-face {
+  font-family: "mozilla-font";
+  src: url("../fonts/mozilla/mozilla-font.woff2") format("woff2"); /* Modern Browsers */
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Header title styling */
+header h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'mozilla-font';
+  font-weight: 500;
+}
+
+/* Body styling */
+body {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  font-family: 'mozilla-font';
+  text-align: center;
+}
+
+/* Icon styling */
+img {
+  display: inline-block;
+  max-width: 5%;
+  vertical-align: middle;
+}
+
+/* Link styling */
+a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Subheading styling */
+h4 {
+  color: rgb(247, 147, 147);
+  vertical-align: middle;
+}
+
+/* Footer styling */
+footer {
+  font-size: 120%;
+  font-weight: 100;
+  margin-top: 3em;
+}
