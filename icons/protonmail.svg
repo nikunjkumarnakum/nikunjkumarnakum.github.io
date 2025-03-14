@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" aria-labelledby="logo-2-title" class="logo with-wordmark" viewBox="0 0 320 320">
+  <defs>
+    <linearGradient id="a" x1=".591" x2=".063" y1="1.009" y2="-.98">
+      <stop stop-color="#E3D9FF"/>
+      <stop offset="1" stop-color="#7341FF"/>
+    </linearGradient>
+    <linearGradient id="c" x1="2.509" x2="-1.091" y1="1.648" y2="-.432">
+      <stop offset=".271" stop-color="#E3D9FF"/>
+      <stop offset="1" stop-color="#7341FF"/>
+    </linearGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="matrix(317.86597 0 0 299.61273 272.379 106.35)" gradientUnits="userSpaceOnUse">
+      <stop offset=".556" stop-color="#6D4AFF"/>
+      <stop offset=".994" stop-color="#AA8EFF"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#a)" fill-rule="evenodd" d="m202.93 120.933.023.011-88.382 98.103L1 94.039V40.115a7.314 7.314 0 0 1 11.982-5.622l126.007 104.634a32.879 32.879 0 0 0 42.022 0l21.919-18.194z" clip-rule="evenodd"/>
+  <path fill="url(#b)" d="m250.857 81.126-47.927 39.807.023.011-63.464 56.059a29.245 29.245 0 0 1-38.046.568L1 94.039v160.25a32.89 32.89 0 0 0 32.902 32.9h216.955l22.714-103.031-22.714-103.032z"/>
+  <path fill="url(#c)" fill-rule="evenodd" d="M250.857 81.171V287.19h35.241c18.172 0 32.902-14.73 32.902-32.89V40.115a7.314 7.314 0 0 0-11.982-5.622l-56.16 46.678z" clip-rule="evenodd"/>
+</svg>
