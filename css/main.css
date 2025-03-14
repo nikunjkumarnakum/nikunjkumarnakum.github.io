@@ -13,6 +13,12 @@ header h1 {
   font-weight: 500;
 }
 
+/* Animated text styling */
+.animated-text {
+  animation: hueRotation 30s infinite linear;
+  color: hsl(0, 100%, 50%); /* Start with red */
+}
+
 /* Body styling */
 body {
   background-color: rgb(51, 51, 51);
@@ -36,10 +42,14 @@ a {
   text-decoration: none;
 }
 
-/* Subheading styling */
-h4 {
-  color: rgb(247, 147, 147);
-  vertical-align: middle;
+/* Keyframes for hue rotation animation */
+@keyframes hueRotation {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
 }
 
 /* Footer styling */
